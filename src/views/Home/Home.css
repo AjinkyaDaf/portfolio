@@ -1,0 +1,124 @@
+/* Hero Section Styling */
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+  }
+  
+  /* Left Side Content */
+  .hero-content {
+    width: 50%;
+  }
+  
+  .intro {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #555;
+    margin: 20px 0;
+  }
+  
+  /* Buttons */
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .hire-btn {
+    background-color: #ffcc00;
+    color: white;
+  }
+  
+  .hire-btn:hover {
+    background-color: #e6b800;
+  }
+  
+  .download-btn {
+    background: none;
+    border: 2px solid #ffcc00;
+    color: #ffcc00;
+  }
+  
+  .download-btn:hover {
+    background-color: #ffcc00;
+    color: white;
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin-right: 15px;
+    font-size: 24px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Right Side Image */
+  .hero-image {
+    width: 50%;
+    text-align: right;
+  }
+  
+  .hero-image img {
+    max-width: 400px;
+    border-radius: 10px;
+    border: 5px solid #007bff;
+  }
+/* Social Icons Container */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  /* Individual Icons */
+  .social-icons a {
+    margin: 0 15px;
+    font-size: 32px;
+    color: #007bff; /* Blue color */
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+  
+  /* Hover Effect */
+  .social-icons a:hover {
+    color: #ffcc00; /* Yellow color */
+    transform: scale(1.2);
+  }
+    

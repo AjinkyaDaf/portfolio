@@ -1,0 +1,98 @@
+.footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .logo-circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+  
+  .yellow {
+    background-color: #ffcc00;
+  }
+  
+  .blue {
+    background-color: white;
+    border: 2px solid #007bff;
+  }
+  
+  .logo-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .footer-nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-socials {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icon {
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .social-icon:hover {
+    color: #ffcc00;
+  }
+  
+  .back-to-top {
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .back-to-top:hover {
+    background-color: #e6b800;
+  }
+  
+  .footer-bottom {
+    background-color: #ffcc00;
+    color: black;
+    padding: 10px 0;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
