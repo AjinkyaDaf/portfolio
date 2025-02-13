@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="logo">
         <div className="circle yellow"></div>
         <div className="circle blue"></div>
-        <span className="brand-name">Farwa Ali</span>
+        <span className="brand-name">Ajinkya Daf</span>
       </div>
 
       {/* Navigation Links */}

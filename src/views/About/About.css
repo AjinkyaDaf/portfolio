@@ -1,30 +1,14 @@
 .about-container {
-  display: flex;
-  align-items: center;
+  text-align: center;
   background-color: #fff;
   padding: 40px;
   border-radius: 10px;
-}
-
-.image-container {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  position: relative;
-}
-
-.profile-image {
-  width: 250px;
-  border-radius: 10px;
-}
-
-.content {
-  flex: 1;
-  padding-left: 20px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .heading {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -32,7 +16,22 @@
 .description {
   font-size: 16px;
   color: #666;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills-section {
+  display: flex;
+  justify-content: center;
+  gap: 150px; /* Added gap between the two skill sections */
+  margin-top: 20px;
+}
+
+.skills-column {
+  flex: 1;
+  max-width: 300px;
 }
 
 .skill-container {

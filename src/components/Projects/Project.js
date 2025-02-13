@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import "./Project.css"; // Import external CSS file
 import image from "../../assets/gf.png"; // Import the image
+import "./Project.css"; // Import external CSS file
+
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState("All");
 
@@ -54,11 +55,19 @@ const Projects = () => {
 
       <div className="projects-grid">
         {filteredProjects.map((project) => (
+          // <div key={project.id} className="project-card">
+          //   <img src={project.image} alt={project.title} className="project-image" />
+          //   <p className="project-category">{project.category}</p>
+          //   <h3 className="project-title">{project.title}</h3>
+          // </div>
           <div key={project.id} className="project-card">
-            <img src={project.image} alt={project.title} className="project-image" />
-            <p className="project-category">Web Design</p>
-            <h3 className="project-title">{project.title}</h3>
-          </div>
+  <img src={project.image} alt={project.title} className="project-image" />
+  <div className="project-details">
+    <p className="project-category">{project.category}</p>
+    <h3 className="project-title">{project.title}</h3>
+  </div>
+</div>
+
         ))}
       </div>
     </div>

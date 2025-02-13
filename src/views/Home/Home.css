@@ -5,44 +5,44 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
-    background-color: white;
-  }
-  
-  /* Left Side Content */
-  .hero-content {
+    padding: 100px; /* Doubled the padding */
+    background-color: rgb(255, 229, 229);
+}
+
+/* Left Side Content */
+.hero-content {
     width: 50%;
-  }
-  
-  .intro {
+}
+
+.intro {
     font-size: 18px;
     color: #333;
-  }
-  
-  .name {
+}
+
+.name {
     font-size: 32px;
     font-weight: bold;
     color: #007bff;
-  }
-  
-  .title {
+}
+
+.title {
     font-size: 48px;
     font-weight: bold;
     color: #ffcc00;
-  }
-  
-  .description {
+}
+
+.description {
     font-size: 16px;
     color: #555;
     margin: 20px 0;
-  }
-  
-  /* Buttons */
-  .buttons {
+}
+
+/* Buttons */
+.buttons {
     margin-top: 20px;
-  }
-  
-  .btn {
+}
+
+.btn {
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
@@ -50,75 +50,76 @@
     border-radius: 20px;
     cursor: pointer;
     margin-right: 10px;
-  }
-  
-  .hire-btn {
+}
+
+.hire-btn {
     background-color: #ffcc00;
     color: white;
-  }
-  
-  .hire-btn:hover {
+}
+
+.hire-btn:hover {
     background-color: #e6b800;
-  }
-  
-  .download-btn {
+}
+
+.download-btn {
     background: none;
     border: 2px solid #ffcc00;
     color: #ffcc00;
-  }
-  
-  .download-btn:hover {
+}
+
+.download-btn:hover {
     background-color: #ffcc00;
     color: white;
-  }
-  
-  /* Social Icons */
-  .social-icons {
+}
+
+/* Social Icons */
+.social-icons {
     margin-top: 20px;
-  }
-  
-  .social-icons a {
+}
+
+.social-icons a {
     margin-right: 15px;
     font-size: 24px;
     color: #007bff;
     text-decoration: none;
-  }
-  
-  .social-icons a:hover {
+}
+
+.social-icons a:hover {
     color: #ffcc00;
-  }
-  
-  /* Right Side Image */
-  .hero-image {
+}
+
+/* Right Side Image */
+.hero-image {
     width: 50%;
     text-align: right;
-  }
-  
-  .hero-image img {
-    max-width: 400px;
+}
+
+.hero-image img {
+    max-width: 120%; /* Increased the image size */
+    height: auto;
     border-radius: 10px;
     border: 5px solid #007bff;
-  }
+}
+
 /* Social Icons Container */
 .social-icons {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px 0;
-  }
-  
-  /* Individual Icons */
-  .social-icons a {
+}
+
+/* Individual Icons */
+.social-icons a {
     margin: 0 15px;
     font-size: 32px;
-    color: #007bff; /* Blue color */
+    color: #007bff;
     text-decoration: none;
     transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
-  }
-  
-  /* Hover Effect */
-  .social-icons a:hover {
-    color: #ffcc00; /* Yellow color */
+}
+
+/* Hover Effect */
+.social-icons a:hover {
+    color: #ffcc00;
     transform: scale(1.2);
-  }
-    
+}

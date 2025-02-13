@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import './Home.css';
 
-import profileImage from '../../assets/gf.png'; // Updated image path
+import profileImage from '../../assets/biker.jpg'; // Updated image path
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
       <section className="hero">
         <div className="hero-content">
           <p className="intro">Hi, I am</p>
-          <h1 className="name">Farwa Ali</h1>
+          <h1 className="name">Ajinkya Daf</h1>
           <h2 className="title">UI & UX Designer</h2>
           <p className="description">
             Lorem ipsum dolor sit amet consectetur. Nunc eget vestibulum porttitor
